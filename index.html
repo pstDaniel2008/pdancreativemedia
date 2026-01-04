@@ -74,7 +74,7 @@
   <section class="section">
     <h2>Contact Me</h2>
     <form class="contact-form" id ="interestForm">
-      <input type="text" placeholder="Your Name" required name ="Name" id ="name">
+      <input type="text" placeholder="Your Name" required name ="name" id ="name">
       <input type="email" placeholder="Your Email" required name ="email" id ="email">
       <input type="tel" name ="phone" id ="phone"
       placeholder="Whatsapp number" >
@@ -127,7 +127,7 @@ document.getElementById("interestForm").addEventListener("submit", function (eve
       //console.log('submitted')
       let name = data.get("name");
       let phone = data.get("phone");
-      let service = data.get("service");
+      let service = data.get("action");
       let message = data.get("message");
 
       let whatsappMessage =
