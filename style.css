@@ -113,7 +113,7 @@ img {
   flex-wrap: wrap;
 }
 .design {
-  max-width: 14.5rem;
+  width: 14.5rem;
 }
 @media (max-width: 520px) {
   .design {
