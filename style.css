@@ -113,11 +113,11 @@ img {
   flex-wrap: wrap;
 }
 .design {
-  width: 100%;
+  max-width: 14.5rem;
 }
-@media (min-width: 520px) {
+@media (max-width: 520px) {
   .design {
-    max-width: 14.5rem;
+    width: 100%;
   }
 }
 
