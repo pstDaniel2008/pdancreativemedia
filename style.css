@@ -114,8 +114,13 @@ img {
 }
 .design {
   width: 100%;
-  max-width: 14.5rem;
 }
+@media (min-width: 450px) {
+  .design {
+    max-width: 14.5rem;
+  }
+}
+
 .line {
   width: 100%;
   height: 2px;
